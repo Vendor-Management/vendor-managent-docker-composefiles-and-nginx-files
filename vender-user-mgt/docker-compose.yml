@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      vender-user-mgt:
+        image: evolza/vender-user-mgt
+        container_name: vender-user-mgt
+        ports:
+          - '7448:8888'

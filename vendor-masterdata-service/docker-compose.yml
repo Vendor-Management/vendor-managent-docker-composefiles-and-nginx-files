@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      vendor-masterdata-service:
+        image: evolza/vendor-masterdata-service
+        container_name: vendor-masterdata-service
+        ports:
+          - '7450:8888'

@@ -1,0 +1,6 @@
+services:
+ vendor-payment-gateway:
+    image: evolza/vendor-payment-gateway
+    container_name: vendor-payment-gateway
+    ports:
+      - "3200:8888"

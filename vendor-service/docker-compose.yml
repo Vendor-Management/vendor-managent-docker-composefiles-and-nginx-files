@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      vendor-service:
+        image: evolza/vendor-service-rc
+        container_name: vendor-service
+        ports:
+          - '7445:8888'

@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      vender-payment-service:
+        image: evolza/vender-payment-service
+        container_name: vender-payment-service
+        ports:
+          - '7447:8888'

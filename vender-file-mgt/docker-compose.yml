@@ -1,0 +1,8 @@
+    version: '3.8'
+
+    services:
+      vender-file-mgt:
+        image: evolza/vender-file-mgt
+        container_name: vender-file-mgt
+        ports:
+          - '7446:8888'

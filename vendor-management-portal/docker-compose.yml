@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  vendor-management-portal:
+    image: evolza/vendor-management-portal-rc
+    container_name: vendor-management-portal
+    ports:
+      - "16701:80"
